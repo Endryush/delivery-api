@@ -3,7 +3,7 @@ import winston from 'winston'
 import cors from 'cors'
 
 // routes
-// import ordersRouter from './routes/orders.routes.js'
+import ordersRouter from './routes/orders.routes.js'
 
 
 // global json file to write and read items for learning purposes
@@ -31,7 +31,7 @@ app.use(cors())
 app.use(express.json())
 
 // routes
-// app.use('/order', ordersRouter)
+app.use('/order', ordersRouter)
 
 
 app.listen(3000, async ()=> {
