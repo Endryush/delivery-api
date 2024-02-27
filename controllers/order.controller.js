@@ -1,6 +1,6 @@
 import OrderService from '../services/order.service.js'
 
-async function createOrder (req, res) {
+async function createOrder (req, res, next) {
   try {
     let order = req.body
 
@@ -16,11 +16,29 @@ async function createOrder (req, res) {
     logger.info(`POST /order - ${JSON.stringify(order)}`)
     res.send(order)
   } catch (error) {
-    logger.error(`${req.method} => ${req.baseUrl} ${error.message}`)
-    res.status(500).send({ error: error.message })
+    next(error)
+  }
+}
+
+async function updateOrder (req, res, next) {
+  try {
+    let order = req.body
+
+    if (!order.name || !order.value || !order.product  || !order.id) {
+      throw new Error ('Campos  obrigatórios não preenchidos')
+    }
+
+    const updatedOrder = await OrderService.update(order)
+    if (updatedOrder.Error) throw new Error (updatedOrder.Error)
+
+    logger.info(`PUT /order - ${JSON.stringify(order)}`)
+    res.send(updatedOrder)
+  } catch (error) {
+    next(error)
   }
 }
 
 export default {
-  createOrder
+  createOrder,
+  updateOrder
 }

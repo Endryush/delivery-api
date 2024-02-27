@@ -17,7 +17,7 @@ global.logger = winston.createLogger({
   level: 'silly',
   transports: [
     new (winston.transports.Console)(),
-    new (winston.transports.File)({ filename: 'bank-api-logger.log' })
+    new (winston.transports.File)({ filename: 'order-api-logger.log' })
   ],
   format: combine(
     label({ label: 'my-delivery-api' }),

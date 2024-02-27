@@ -1,0 +1,96 @@
+2024-02-27T23:23:24.911Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:24:19.175Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:24:21.704Z [my-delivery-api]  error: POST => /order ReferenceError: lla is not defined
+2024-02-27T23:30:45.063Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:31:45.922Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:32:45.971Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:33:05.701Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:33:30.028Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:33:49.194Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:33:55.716Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:34:58.910Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:35:00.756Z [my-delivery-api]  error: PUT => /order Campos  obrigatórios não preenchidos
+2024-02-27T23:35:18.222Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:35:21.642Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:36:56.243Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:37:04.635Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:37:24.532Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:37:26.321Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:38:19.017Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:38:22.766Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:39:02.691Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:39:30.623Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:39:33.644Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:39:36.268Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:40:24.404Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:40:27.826Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:40:32.086Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:40:32.986Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:40:49.736Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:40:51.574Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:40:56.686Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:41:17.015Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:41:22.367Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:41:30.234Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:41:34.183Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:41:39.958Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:41:41.103Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:42:24.514Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:42:26.476Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:42:28.105Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:42:42.077Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:42:43.516Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:42:55.160Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:43:49.149Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:43:52.220Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:43:55.056Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:44:04.188Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:44:05.537Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:44:22.757Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:44:23.509Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:44:29.604Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:44:33.845Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:44:41.492Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:45:34.810Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:45:35.698Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:45:39.345Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:45:55.633Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:46:07.488Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:46:08.588Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:46:46.977Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:46:49.211Z [my-delivery-api]  error: PUT => /order 
+2024-02-27T23:47:10.098Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:47:12.884Z [my-delivery-api]  error: PUT => /order Error
+2024-02-27T23:47:19.995Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:47:28.736Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:47:31.492Z [my-delivery-api]  error: PUT => /order 
+2024-02-27T23:48:09.977Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:48:13.936Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:48:15.539Z [my-delivery-api]  error: PUT => /order TypeError: Cannot read properties of undefined (reading 'findIndex')
+2024-02-27T23:48:33.452Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:48:34.949Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:48:54.731Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:49:15.460Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:49:19.336Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:49:33.027Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:49:36.076Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:49:43.700Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:49:50.908Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:49:58.736Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:49:59.636Z [my-delivery-api]  error: PUT => /order Cannot read properties of undefined (reading 'Error')
+2024-02-27T23:50:03.688Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:50:04.622Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:50:11.783Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:50:12.867Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:52:30.979Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:52:44.617Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:52:48.487Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:52:53.494Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:54:00.870Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:54:05.728Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:54:31.629Z [my-delivery-api]  error: PUT => /order Campos  obrigatórios não preenchidos
+2024-02-27T23:54:35.061Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:54:54.690Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":"false"}
+2024-02-27T23:55:02.284Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
+2024-02-27T23:55:28.979Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:55:33.134Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":false}
