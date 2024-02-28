@@ -60,8 +60,21 @@ async function deleteOrder (req, res, next) {
 
     await OrderService.deleteOrder(parseInt(id))
 
-    logger.info(`DELETE /account/:id => account deleted = ${id}`)
+    logger.info(`DELETE /order/:id => order deleted = ${id}`)
     res.end()
+  } catch (error) {
+    next(error)
+  }
+}
+
+async function getOrder (req, res, next) {
+  try {
+    const { id } = req.params
+
+    const order = await OrderService.getOrder(parseInt(id))
+
+    logger.info(`GET /order/:id => order = ${id}`)
+    res.send(order)
   } catch (error) {
     next(error)
   }
@@ -71,5 +84,6 @@ export default {
   createOrder,
   updateOrder,
   updateDelivery,
-  deleteOrder
+  deleteOrder,
+  getOrder
 }

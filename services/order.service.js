@@ -13,12 +13,17 @@ async function updateDelivery (order) {
 }
 
 async function deleteOrder (id) {
-  return await OrderRepository.deleteDelivery(id)
+  return await OrderRepository.deleteOrder(id)
+}
+
+async function getOrder (id) {
+  return await OrderRepository.getOrderById(id)
 }
 
 export default {
   create,
   update,
   updateDelivery,
-  deleteOrder
+  deleteOrder,
+  getOrder
 }

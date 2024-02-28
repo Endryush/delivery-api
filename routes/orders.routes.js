@@ -8,6 +8,7 @@ router
   .put('/', orderController.updateOrder)
   .patch('/updateDelivery', orderController.updateDelivery)
   .delete('/:id', orderController.deleteOrder)
+  .get('/:id', orderController.getOrder)
 
 
   .use ((error, req, res, next) => {

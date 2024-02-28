@@ -87,12 +87,10 @@ async function writeDataOrder (data) {
   return await writeFile(global.filename, JSON.stringify(data, null, 2))
 }
 
-async function deleteDelivery (id) {
+async function deleteOrder (id) {
   try {
-    let allData = await getAllOrderData()
+    const allData = await getAllOrderData()
     allData.pedidos = allData.pedidos.filter(order => order.id !== id)
-
-    
 
     return await writeDataOrder(allData)
   } catch (error) {
@@ -104,5 +102,6 @@ export default {
   insertOrder,
   updateOrder,
   updateDelivery,
-  deleteDelivery
+  deleteOrder,
+  getOrderById
 }

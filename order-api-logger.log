@@ -195,3 +195,22 @@
 2024-02-28T03:25:53.304Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
 2024-02-28T03:26:18.407Z [my-delivery-api]  info: Server is running on port 3000
 2024-02-28T03:26:48.070Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
+2024-02-28T03:30:42.498Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:31:44.807Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:31:59.777Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:32:04.188Z [my-delivery-api]  error: DELETE => /order OrderRepository.deleteDelivery is not a function
+2024-02-28T03:32:11.361Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:32:12.541Z [my-delivery-api]  info: DELETE /order/:id => order deleted = 501
+2024-02-28T03:33:36.090Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:35:43.560Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:35:51.577Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:35:55.814Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:36:16.155Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:36:17.908Z [my-delivery-api]  error: GET => /order OrderRepository.getOrderById is not a function
+2024-02-28T03:36:35.723Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:36:39.721Z [my-delivery-api]  info: DELETE /order/:id => order = 501
+2024-02-28T03:36:39.722Z [my-delivery-api]  error: GET => /order The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+2024-02-28T03:37:00.721Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:37:04.283Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:37:49.403Z [my-delivery-api]  info: DELETE /order/:id => order = 501
+2024-02-28T03:38:08.812Z [my-delivery-api]  info: Server is running on port 3000
