@@ -148,3 +148,50 @@
 2024-02-28T00:27:09.416Z [my-delivery-api]  info: Server is running on port 3000
 2024-02-28T00:27:11.757Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":false,"timestamp":"2024-02-27T23:59:27.451Z"}
 2024-02-28T00:27:15.063Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":true,"timestamp":"2024-02-27T23:59:27.451Z"}
+2024-02-28T02:28:09.429Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T02:51:16.922Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"timestamp":"2024-02-27T23:59:27.451Z"}
+2024-02-28T02:52:06.934Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
+2024-02-28T02:52:35.575Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T02:52:40.857Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
+2024-02-28T02:53:19.871Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T02:53:34.247Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
+2024-02-28T02:55:55.454Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T02:57:35.161Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
+2024-02-28T02:57:47.200Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T02:57:53.850Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
+2024-02-28T03:00:55.444Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
+2024-02-28T03:01:00.517Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:01:04.306Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
+2024-02-28T03:01:05.151Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
+2024-02-28T03:01:05.766Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
+2024-02-28T03:02:13.033Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:02:15.001Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
+2024-02-28T03:02:15.002Z [my-delivery-api]  error: DELETE => /order The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+2024-02-28T03:02:24.075Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:03:05.469Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:03:09.184Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:03:16.183Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
+2024-02-28T03:03:24.051Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:03:28.866Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
+2024-02-28T03:05:38.850Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:06:32.466Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
+2024-02-28T03:06:50.826Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:06:53.161Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:06:58.215Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
+2024-02-28T03:09:45.387Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:09:48.270Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
+2024-02-28T03:12:07.034Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:13:24.499Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
+2024-02-28T03:13:44.096Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:13:47.470Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
+2024-02-28T03:14:48.128Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:14:55.583Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
+2024-02-28T03:15:11.602Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:15:57.750Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
+2024-02-28T03:16:36.427Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:16:47.433Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
+2024-02-28T03:18:29.983Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:19:34.060Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:25:53.304Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501
+2024-02-28T03:26:18.407Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:26:48.070Z [my-delivery-api]  info: DELETE /account/:id => account deleted = 501

@@ -54,8 +54,22 @@ async function updateDelivery (req, res, next) {
   }
 }
 
+async function deleteOrder (req, res, next) {
+  try {
+    const { id } = req.params
+
+    await OrderService.deleteOrder(parseInt(id))
+
+    logger.info(`DELETE /account/:id => account deleted = ${id}`)
+    res.end()
+  } catch (error) {
+    next(error)
+  }
+}
+
 export default {
   createOrder,
   updateOrder,
-  updateDelivery
+  updateDelivery,
+  deleteOrder
 }
