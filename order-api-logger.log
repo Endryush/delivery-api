@@ -94,3 +94,57 @@
 2024-02-27T23:55:02.284Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":true}
 2024-02-27T23:55:28.979Z [my-delivery-api]  info: Server is running on port 3000
 2024-02-27T23:55:33.134Z [my-delivery-api]  info: PUT /order - {"id":501,"name":"Alex dos pedidos","value":50,"product":"pizza especial de carne vegana premium plus","delivered":false}
+2024-02-27T23:58:25.826Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:59:15.863Z [my-delivery-api]  error: POST => /order ReferenceError: lla is not defined
+2024-02-27T23:59:26.468Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-27T23:59:27.452Z [my-delivery-api]  info: POST /order - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":false,"timestamp":"2024-02-27T23:59:27.451Z"}
+2024-02-28T00:02:27.647Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T00:06:55.811Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T00:07:30.454Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T00:07:38.180Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T00:08:09.855Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T00:09:28.925Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T00:10:37.552Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T00:13:44.912Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T00:13:50.013Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T00:14:30.761Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T00:14:36.653Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T00:15:07.543Z [my-delivery-api]  error: PUT => /order Campos  obrigatórios não preenchidos
+2024-02-28T00:15:26.399Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":false,"timestamp":"2024-02-27T23:59:27.451Z"}
+2024-02-28T00:16:46.987Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T00:16:57.402Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":false,"timestamp":"2024-02-27T23:59:27.451Z","delivered":true}
+2024-02-28T00:17:47.137Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":false,"timestamp":"2024-02-27T23:59:27.451Z","delivered":true}
+2024-02-28T00:17:48.551Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"entregue":true,"timestamp":"2024-02-27T23:59:27.451Z","delivered":true}
+2024-02-28T00:17:50.358Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"entregue":true,"timestamp":"2024-02-27T23:59:27.451Z","delivered":true}
+2024-02-28T00:17:51.008Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"entregue":true,"timestamp":"2024-02-27T23:59:27.451Z","delivered":true}
+2024-02-28T00:17:52.811Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"entregue":true,"timestamp":"2024-02-27T23:59:27.451Z","delivered":true}
+2024-02-28T00:18:25.186Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T00:18:26.730Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":false,"timestamp":"2024-02-27T23:59:27.451Z","delivered":true}
+2024-02-28T00:18:50.431Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T00:18:51.452Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":false,"timestamp":"2024-02-27T23:59:27.451Z","delivered":true}
+2024-02-28T00:18:55.288Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"entregue":true,"timestamp":"2024-02-27T23:59:27.451Z","delivered":true}
+2024-02-28T00:18:56.471Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"entregue":true,"timestamp":"2024-02-27T23:59:27.451Z","delivered":true}
+2024-02-28T00:18:57.218Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"entregue":true,"timestamp":"2024-02-27T23:59:27.451Z","delivered":true}
+2024-02-28T00:19:01.679Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":false,"timestamp":"2024-02-27T23:59:27.451Z","delivered":true}
+2024-02-28T00:19:42.666Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T00:19:48.355Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T00:19:51.659Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":true,"timestamp":"2024-02-27T23:59:27.451Z"}
+2024-02-28T00:19:53.212Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":true,"timestamp":"2024-02-27T23:59:27.451Z"}
+2024-02-28T00:19:53.804Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":true,"timestamp":"2024-02-27T23:59:27.451Z"}
+2024-02-28T00:19:54.257Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":true,"timestamp":"2024-02-27T23:59:27.451Z"}
+2024-02-28T00:19:54.646Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":true,"timestamp":"2024-02-27T23:59:27.451Z"}
+2024-02-28T00:20:01.751Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T00:20:03.090Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":true,"timestamp":"2024-02-27T23:59:27.451Z"}
+2024-02-28T00:23:25.616Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T00:24:08.964Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":true,"timestamp":"2024-02-27T23:59:27.451Z"}
+2024-02-28T00:25:59.222Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T00:26:01.940Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T00:26:13.886Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":true,"timestamp":"2024-02-27T23:59:27.451Z"}
+2024-02-28T00:26:20.874Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":true,"timestamp":"2024-02-27T23:59:27.451Z"}
+2024-02-28T00:26:52.673Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T00:26:55.379Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":true,"timestamp":"2024-02-27T23:59:27.451Z"}
+2024-02-28T00:26:58.606Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":true,"timestamp":"2024-02-27T23:59:27.451Z"}
+2024-02-28T00:27:03.007Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":false,"timestamp":"2024-02-27T23:59:27.451Z"}
+2024-02-28T00:27:09.416Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T00:27:11.757Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":false,"timestamp":"2024-02-27T23:59:27.451Z"}
+2024-02-28T00:27:15.063Z [my-delivery-api]  info: PATCH /order/updateDelivery - {"id":501,"cliente":"Alex dos pedidos","produto":"pizza especial de carne vegana premium plus","valor":50,"entregue":true,"timestamp":"2024-02-27T23:59:27.451Z"}

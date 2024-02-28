@@ -6,7 +6,7 @@ const { readFile, writeFile } = fs
 async function insertOrder (order) {
  try {
   const data = JSON.parse(await readFile(global.filename))
-  console.log(lla)
+
   order = {
     id:  data.nextId ++,
     cliente: order.name,
@@ -47,6 +47,38 @@ async function updateOrder (order) {
   }
 }
 
+async function updateDelivery (order) {
+  try {
+    const currentOrder = await getOrderById(order.id)
+
+    if (!currentOrder) throw new  Error("Order doesn't exist")
+
+    currentOrder.entregue = order.delivered
+    
+    const formattedOrder ={
+      id: currentOrder.id,
+      product: currentOrder.produto,
+      name: currentOrder.cliente,
+      value: currentOrder.valor,
+      delivered: order.delivered,
+      timestamp: currentOrder.timestamp
+    }
+
+    await updateOrder(formattedOrder)
+
+    return currentOrder
+  } catch (error) {
+    return { Error: error }
+  }
+}
+
+async function getOrderById (id) {
+  const orders = await getAllOrderData()
+  const currentOrder = orders.pedidos.find(order => order.id === id)
+
+  return  currentOrder
+}
+
 async function getAllOrderData () {
   return JSON.parse(await readFile(global.filename))
 }
@@ -58,5 +90,6 @@ async function writeDataOrder (data) {
 
 export default {
   insertOrder,
-  updateOrder
+  updateOrder,
+  updateDelivery
 }

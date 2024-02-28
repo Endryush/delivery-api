@@ -38,7 +38,24 @@ async function updateOrder (req, res, next) {
   }
 }
 
+async function updateDelivery (req, res, next) {
+  try {
+    let updatedOrder = req.body
+
+    if (!updatedOrder.id)  throw new Error ('Campos  obrigatórios não preenchidos')
+
+    updatedOrder =  await OrderService.updateDelivery(updatedOrder)
+    if (updatedOrder.Error) throw new Error (updatedOrder.Error)
+
+    logger.info(`PATCH /order/updateDelivery - ${JSON.stringify(updatedOrder)}`)
+    res.send(updatedOrder)
+  } catch (error) {
+    next(error)
+  }
+}
+
 export default {
   createOrder,
-  updateOrder
+  updateOrder,
+  updateDelivery
 }

@@ -6,6 +6,7 @@ const router = express.Router()
 router
   .post('/', orderController.createOrder)
   .put('/', orderController.updateOrder)
+  .patch('/updateDelivery', orderController.updateDelivery)
 
 
   .use ((error, req, res, next) => {
