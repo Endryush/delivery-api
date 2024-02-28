@@ -20,10 +20,15 @@ async function getOrder (id) {
   return await OrderRepository.getOrderById(id)
 }
 
+async function getTotalValueByCustomer (customer) {
+  return await  OrderRepository.getTotalValueByCustomer(customer)
+}
+
 export default {
   create,
   update,
   updateDelivery,
   deleteOrder,
-  getOrder
+  getOrder,
+  getTotalValueByCustomer
 }

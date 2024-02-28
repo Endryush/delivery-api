@@ -9,6 +9,8 @@ router
   .patch('/updateDelivery', orderController.updateDelivery)
   .delete('/:id', orderController.deleteOrder)
   .get('/:id', orderController.getOrder)
+  .get('/totalValueCustomers/:customer', orderController.getTotalValueByCustomer)
+  .get('/totalValueProducts/:product')
 
 
   .use ((error, req, res, next) => {

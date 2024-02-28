@@ -214,3 +214,51 @@
 2024-02-28T03:37:04.283Z [my-delivery-api]  info: Server is running on port 3000
 2024-02-28T03:37:49.403Z [my-delivery-api]  info: DELETE /order/:id => order = 501
 2024-02-28T03:38:08.812Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:38:25.322Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:38:48.384Z [my-delivery-api]  info: GET /order/:id => order = 501
+2024-02-28T03:42:33.191Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:45:24.734Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:45:52.673Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:48:52.049Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:49:30.376Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:49:40.038Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:50:30.979Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:50:34.233Z [my-delivery-api]  info: GET /order/totalValueCustomers/:customer => order = Quintiliana Palha
+2024-02-28T03:50:43.190Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:50:44.041Z [my-delivery-api]  info: GET /order/totalValueCustomers/:customer => order = Quintiliana Palha
+2024-02-28T03:50:49.514Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:51:15.761Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:51:19.459Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:51:26.303Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:51:27.284Z [my-delivery-api]  info: GET /order/totalValueCustomers/:customer => order = Quintiliana Palha
+2024-02-28T03:51:34.123Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:51:35.178Z [my-delivery-api]  info: GET /order/totalValueCustomers/:customer => order = Quintiliana Palha
+2024-02-28T03:51:39.303Z [my-delivery-api]  info: GET /order/totalValueCustomers/:customer => order = Quintiliana Palha
+2024-02-28T03:51:47.946Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:51:48.988Z [my-delivery-api]  info: GET /order/totalValueCustomers/:customer => order = Quintiliana Palha
+2024-02-28T03:51:53.159Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:51:54.168Z [my-delivery-api]  info: GET /order/totalValueCustomers/:customer => order = Quintiliana Palha
+2024-02-28T03:51:57.257Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:51:58.543Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:52:00.762Z [my-delivery-api]  info: GET /order/totalValueCustomers/:customer => order = Quintiliana Palha
+2024-02-28T03:52:03.857Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:52:04.829Z [my-delivery-api]  info: GET /order/totalValueCustomers/:customer => order = Quintiliana Palha
+2024-02-28T03:52:12.675Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:52:13.821Z [my-delivery-api]  info: GET /order/totalValueCustomers/:customer => order = Quintiliana Palha
+2024-02-28T03:52:18.182Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:52:19.066Z [my-delivery-api]  info: GET /order/totalValueCustomers/:customer => order = Quintiliana Palha
+2024-02-28T03:52:30.457Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:52:31.472Z [my-delivery-api]  info: GET /order/totalValueCustomers/:customer => order = Quintiliana Palha
+2024-02-28T03:52:33.331Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:52:40.278Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:52:41.639Z [my-delivery-api]  info: GET /order/totalValueCustomers/:customer => order = Quintiliana Palha
+2024-02-28T03:52:45.357Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:52:46.352Z [my-delivery-api]  info: GET /order/totalValueCustomers/:customer => order = Quintiliana Palha
+2024-02-28T03:52:52.141Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:52:53.930Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:53:01.290Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:53:02.093Z [my-delivery-api]  info: GET /order/totalValueCustomers/:customer => order = Quintiliana Palha
+2024-02-28T03:54:20.769Z [my-delivery-api]  info: GET /order/totalValueCustomers/:customer => order = Daniel Pedroso
+2024-02-28T03:55:24.950Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:55:26.635Z [my-delivery-api]  info: GET /order/totalValueCustomers/:customer => order = Daniel Pedroso
+2024-02-28T03:57:43.239Z [my-delivery-api]  info: Server is running on port 3000

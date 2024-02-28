@@ -80,10 +80,23 @@ async function getOrder (req, res, next) {
   }
 }
 
+async function getTotalValueByCustomer (req, res, next) {
+  try {
+    const { customer } = req.params
+    const orders = await OrderService.getTotalValueByCustomer(customer)
+
+    logger.info(`GET /order/totalValueCustomers/:customer => order = ${customer}`)
+    res.send(orders)
+  } catch (error) {
+    next(error)
+  }
+}
+
 export default {
   createOrder,
   updateOrder,
   updateDelivery,
   deleteOrder,
-  getOrder
+  getOrder,
+  getTotalValueByCustomer
 }

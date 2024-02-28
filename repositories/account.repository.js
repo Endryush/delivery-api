@@ -98,10 +98,26 @@ async function deleteOrder (id) {
   }
 }
 
+async function getTotalValueByCustomer (customer) {
+  try {
+    const allOrders = (await getAllOrderData())?.pedidos
+    const ordersByCustomer = allOrders?.filter(order => order.cliente == customer)
+      .filter(order => order.entregue)
+
+    return {
+      customer,
+      total: ordersByCustomer.reduce((acc, item) => acc + item.valor, 0),
+    }
+  } catch (error) {
+    return { Error: error }
+  }
+}
+
 export default {
   insertOrder,
   updateOrder,
   updateDelivery,
   deleteOrder,
-  getOrderById
+  getOrderById,
+  getTotalValueByCustomer
 }
