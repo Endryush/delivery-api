@@ -128,6 +128,24 @@ async function getTotalValueByProduct (product) {
   }
 }
 
+async function getMoreSoldProducts () {
+  try {
+    const allOrders = (await getAllOrderData())?.pedidos
+    const deliveredOrders =  allOrders?.filter(order => order.entregue)
+    const productGroup = deliveredOrders.reduce((acc, item) => {
+      acc[item.produto] = (acc[item.produto] || 0) +1
+      return acc;
+    }, {})
+
+    const sortedData = Object.entries(productGroup).sort((a, b) => b[1] - a[1])
+    const formattedData = sortedData.map(item => `${item[0]} - ${item[1]}`);
+
+    return formattedData
+  } catch (error) {
+    return { Error: error }
+  }
+}
+
 export default {
   insertOrder,
   updateOrder,
@@ -135,5 +153,6 @@ export default {
   deleteOrder,
   getOrderById,
   getTotalValueByCustomer,
-  getTotalValueByProduct
+  getTotalValueByProduct,
+  getMoreSoldProducts
 }

@@ -104,6 +104,17 @@ async function getTotalValueByProduct (req, res, next) {
   }
 }
 
+async function getMoreSoldProducts (req, res, next) {
+  try {
+    const orders = await OrderService.getMoreSoldProducts() 
+
+    logger.info('GET /order/getMoreSoldProducts/')
+    res.send(orders)
+  } catch (error) {
+    next(error)
+  }
+}
+
 export default {
   createOrder,
   updateOrder,
@@ -111,5 +122,6 @@ export default {
   deleteOrder,
   getOrder,
   getTotalValueByCustomer,
-  getTotalValueByProduct
+  getTotalValueByProduct,
+  getMoreSoldProducts
 }

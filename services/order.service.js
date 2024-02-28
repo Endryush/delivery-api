@@ -27,6 +27,11 @@ async function getTotalValueByCustomer (customer) {
 async function getTotalValueByProduct (product) {
   return await  OrderRepository.getTotalValueByProduct(product)
 }
+
+async function getMoreSoldProducts () {
+  return OrderRepository.getMoreSoldProducts()
+}
+
 export default {
   create,
   update,
@@ -34,5 +39,6 @@ export default {
   deleteOrder,
   getOrder,
   getTotalValueByCustomer,
-  getTotalValueByProduct
+  getTotalValueByProduct,
+  getMoreSoldProducts
 }
