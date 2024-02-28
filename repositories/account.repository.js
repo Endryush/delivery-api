@@ -113,11 +113,27 @@ async function getTotalValueByCustomer (customer) {
   }
 }
 
+async function getTotalValueByProduct (product) {
+  try {
+    const allOrders = (await getAllOrderData())?.pedidos
+    const ordersByProduct = allOrders?.filter(order => order.produto == product)
+      .filter(order => order.entregue)
+      
+    return {
+      product,
+      total: ordersByProduct.reduce((acc, item) => acc + item.valor, 0),
+    }
+  } catch (error) {
+    return { Error: error }
+  }
+}
+
 export default {
   insertOrder,
   updateOrder,
   updateDelivery,
   deleteOrder,
   getOrderById,
-  getTotalValueByCustomer
+  getTotalValueByCustomer,
+  getTotalValueByProduct
 }

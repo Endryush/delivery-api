@@ -262,3 +262,24 @@
 2024-02-28T03:55:24.950Z [my-delivery-api]  info: Server is running on port 3000
 2024-02-28T03:55:26.635Z [my-delivery-api]  info: GET /order/totalValueCustomers/:customer => order = Daniel Pedroso
 2024-02-28T03:57:43.239Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T03:57:47.250Z [my-delivery-api]  info: GET /order/totalValueCustomers/:customer => order = Daniel Pedroso
+2024-02-28T04:00:26.216Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T04:01:21.472Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T04:01:46.400Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T04:01:50.796Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T04:02:42.471Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T04:03:08.322Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T04:03:19.100Z [my-delivery-api]  info: GET /order/totalValueProducts/:product => order = Pizza Atum
+2024-02-28T04:03:48.574Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T04:03:49.578Z [my-delivery-api]  info: GET /order/totalValueProducts/:product => order = Pizza Atum
+2024-02-28T04:04:08.476Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T04:04:09.439Z [my-delivery-api]  info: GET /order/totalValueProducts/:product => order = Pizza Atum
+2024-02-28T04:04:17.243Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T04:04:18.114Z [my-delivery-api]  info: GET /order/totalValueProducts/:product => order = Pizza Atum
+2024-02-28T04:04:29.270Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T04:04:32.902Z [my-delivery-api]  info: GET /order/totalValueProducts/:product => order = Pizza Atum
+2024-02-28T04:04:45.246Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T04:04:46.285Z [my-delivery-api]  info: GET /order/totalValueProducts/:product => order = Pizza Atum
+2024-02-28T04:04:57.791Z [my-delivery-api]  info: Server is running on port 3000
+2024-02-28T04:04:59.046Z [my-delivery-api]  info: GET /order/totalValueProducts/:product => order = Pizza Atum
+2024-02-28T04:05:19.404Z [my-delivery-api]  info: Server is running on port 3000

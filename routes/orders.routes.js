@@ -10,7 +10,7 @@ router
   .delete('/:id', orderController.deleteOrder)
   .get('/:id', orderController.getOrder)
   .get('/totalValueCustomers/:customer', orderController.getTotalValueByCustomer)
-  .get('/totalValueProducts/:product')
+  .get('/totalValueProducts/:product', orderController.getTotalValueByProduct)
 
 
   .use ((error, req, res, next) => {
